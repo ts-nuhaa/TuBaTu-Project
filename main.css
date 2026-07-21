@@ -1,0 +1,9 @@
+body {
+    background-color: #3e526d;
+    align-items: center;
+    justify-content: center;
+}
+
+header p, header h1{
+    color: #dee0d5;
+}
