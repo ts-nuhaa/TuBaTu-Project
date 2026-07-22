@@ -16,6 +16,8 @@ This is a small experimental website that presents **Tomorrow X Together**’s d
 
 **3. Games**: Section reserved for future mini-games and interactive content.
 
+**4. Custom Cursor**: User can choose which TXT member they want to use as a cursor. (idea by Jamelah ZA)
+
 **Assistance needed**
 1. UI design
 2. Feature and idea development
