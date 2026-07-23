@@ -21,19 +21,25 @@ body {
 #cd, #cd-rotate {
     position: absolute;
     top: 3vh;
-    right: -10vw;
+    right: calc(-10vw/2);
     z-index: 9999;
     align-self: flex-end;
-    width: 20vw;
+    width: 10vw;
     height: auto;
+}
+
+#cd:hover, #cd-rotate:hover {
+    transition: transform 0.01s;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 header {
     display: grid;
     justify-items: center;
     z-index: 999;
-    padding-top: 20vh;
-    padding-bottom: 2vh;
+    padding-top: 15vh;
+    padding-bottom: 0;
 }
 
 header p, header h1, button{
@@ -47,36 +53,36 @@ header p, header h1 {
 }
 
 header p {
-    font-size: 220%;
+    font-size: calc(990% / 3);
     padding-top: 0;
 }
 
 header h1 {
-    font-size: 650%;
+    font-size: 990%;
 }
 .buttons {
     display: grid;
     justify-content: center;
     align-items: center;
     row-gap: 3vh;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 
 button {
-    width: 25vw;
-    height: 8vh;
-    border-radius: 25px;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 50px;
     background-color: #6983a5;
     color: #eeefe9;
     border: none;
     box-shadow: 0 0 10px 0 #1f3149;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 175%;
 }
 
 button:hover {
     transition: transform 0.01s;
-    height: 7vh;
+    transform: scale(1.1);
     cursor: pointer;
 }
